@@ -225,19 +225,25 @@
         <!--ShowDocs-->
         <scene sceneID="FOa-TN-4mQ">
             <objects>
-                <tabBarController title="ShowDocs" definesPresentationContext="YES" id="ZtV-er-E6E" sceneMemberID="viewController">
+                <tabBarController title="ShowDocs" definesPresentationContext="YES" id="ZtV-er-E6E" colorLabel="IBBuiltInLabel-Blue" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="4vA-kc-cuX"/>
                     <nil key="simulatedBottomBarMetrics"/>
-                    <tabBar key="tabBar" contentMode="scaleToFill" id="P9B-GS-aqZ">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="P9B-GS-aqZ" colorLabel="IBBuiltInLabel-Purple">
                         <rect key="frame" x="129" y="330" width="163" height="49"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <color key="tintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                         <userDefinedRuntimeAttributes>
                             <userDefinedRuntimeAttribute type="color" keyPath="tintColor">
                                 <color key="value" red="0.3294117647" green="0.74117647060000003" blue="0.43529411759999997" alpha="1" colorSpace="calibratedRGB"/>
                             </userDefinedRuntimeAttribute>
                         </userDefinedRuntimeAttributes>
                     </tabBar>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="color" keyPath="tintColor">
+                            <color key="value" red="0.50196081400000003" green="0.0" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
                     <connections>
                         <segue destination="r0u-rr-tLg" kind="relationship" relationship="viewControllers" id="vs4-Hj-gct"/>
                         <segue destination="qlI-wA-g3K" kind="relationship" relationship="viewControllers" id="73q-FL-ScO"/>
@@ -315,8 +321,8 @@
                 <navigationController definesPresentationContext="YES" id="r0u-rr-tLg" userLabel="Nav - Open Doc" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Document" image="tabDoc_25.png" id="w75-P4-kdd">
                         <userDefinedRuntimeAttributes>
-                            <userDefinedRuntimeAttribute type="color" keyPath="tintColor">
-                                <color key="value" red="0.3294117647" green="0.74117647060000003" blue="0.43529411759999997" alpha="1" colorSpace="calibratedRGB"/>
+                            <userDefinedRuntimeAttribute type="color" keyPath="barTintColor">
+                                <color key="value" red="0.89411764709999997" green="0.42745098040000001" blue="0.80392156859999997" alpha="1" colorSpace="calibratedRGB"/>
                             </userDefinedRuntimeAttribute>
                         </userDefinedRuntimeAttributes>
                     </tabBarItem>
@@ -680,7 +686,7 @@
         <scene sceneID="q2n-0z-QAZ">
             <objects>
                 <navigationController title="Upload Photos Scene" definesPresentationContext="YES" id="qlI-wA-g3K" userLabel="Nav - Browse Photo" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Photo" image="tabPhoto_25.png" id="jwk-yN-KcB"/>
+                    <tabBarItem key="tabBarItem" title="Photo" image="tabPhoto_25.png" id="jwk-yN-KcB" colorLabel="IBBuiltInLabel-Purple"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="G8j-mg-Ls4">
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>

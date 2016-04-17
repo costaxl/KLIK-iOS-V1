@@ -96,7 +96,7 @@ static GUIAPPDelegate* defaultApp=nil;
     
     // Setup Dropbox Here with YOUR OWN APP info
     // #error Dropbox App Key and Secret are required for basic functionality. Add them below AND in the Info.plist file in the URL-Schemes section. Replace the "APP_KEY" text with your app key (make sure to leave the "db-" there)
-    DBSession *dbSession = [[DBSession alloc] initWithAppKey:@"jcnyo2zkq4mhdtu" appSecret:@"ue5qz8jvnjujsv3" root:kDBRootDropbox];
+    DBSession *dbSession = [[DBSession alloc] initWithAppKey:@"xods8e97becyexv" appSecret:@"t5sclg2si9hjbxe" root:kDBRootDropbox];
     [DBSession setSharedSession:dbSession];
     
     // add property observer
@@ -142,23 +142,23 @@ static GUIAPPDelegate* defaultApp=nil;
 
 - (void)applicationDidBecomeActive:(UIApplication *)application
 {
+    // stop screen from sleeping
+    [[UIApplication sharedApplication] setIdleTimerDisabled:YES];
+    
 	// The application becomes active after a sync (i.e., file upload)
     if (![GUIModelService defaultModelService].m_AppSetting.m_ScreenShareServerRecord)
         return;
+    
     // login server automatically
     NSString *ErrMsg = nil;
     PMPlayer_Error result = [[GUIModelService defaultModelService].m_NSSserver Login:[GUIModelService defaultModelService].m_AppSetting.m_ScreenShareServerRecord];
     
     //keep recorder in setting
     if (result==0)
-    {
         ErrMsg = @"Login Successful";
-        
-    }
+    
     else
-    {
         ErrMsg = @"Login Failed";
-    }
 
 }
 
