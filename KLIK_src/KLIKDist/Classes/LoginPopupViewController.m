@@ -181,6 +181,9 @@
 #pragma mark - UITextFieldDelegate
 
 - (BOOL)textFieldShouldBeginEditing:(UITextField *)textField {
+    
+    // Irina
+    [self selectServerName: -1];
     return NO;
 }
 
