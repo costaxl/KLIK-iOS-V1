@@ -841,7 +841,7 @@
 				LastUpgradeCheck = 0420;
 				TargetAttributes = {
 					94CC4806154135C400502D71 = {
-						DevelopmentTeam = FPC9C8KP3J;
+						DevelopmentTeam = JX4M9DYW82;
 					};
 				};
 			};
@@ -1108,7 +1108,7 @@
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = com.optimisticlock.klik;
+				PRODUCT_BUNDLE_IDENTIFIER = com.klikboks.knkt;
 				PRODUCT_NAME = "KLIK Knkt";
 				PROVISIONING_PROFILE = "";
 				USER_HEADER_SEARCH_PATHS = "./**";
@@ -1140,7 +1140,7 @@
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = com.optimisticlock.klik;
+				PRODUCT_BUNDLE_IDENTIFIER = com.klikboks.knkt;
 				PRODUCT_NAME = "KLIK Knkt";
 				PROVISIONING_PROFILE = "";
 				USER_HEADER_SEARCH_PATHS = "./**";
@@ -1172,7 +1172,7 @@
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "";
-				PRODUCT_BUNDLE_IDENTIFIER = com.optimisticlock.klik;
+				PRODUCT_BUNDLE_IDENTIFIER = com.klikboks.knkt;
 				PRODUCT_NAME = "KLIK Knkt";
 				PROVISIONING_PROFILE = "";
 				USER_HEADER_SEARCH_PATHS = "./**";

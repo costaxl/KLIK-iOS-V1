@@ -70,7 +70,6 @@
                     <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="16"/>
                     <textInputTraits key="textInputTraits"/>
                     <connections>
-                        <action selector="selectServerName:" destination="-1" eventType="touchDown" id="GAl-gJ-OOf"/>
                         <outlet property="delegate" destination="-1" id="KRJ-Jx-eFX"/>
                     </connections>
                 </textField>
