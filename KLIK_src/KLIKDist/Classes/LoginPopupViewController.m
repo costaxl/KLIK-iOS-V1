@@ -125,6 +125,9 @@
 }
 - (IBAction)loginServer:(id)sender
 {
+    // Hide numeric keyboard if any
+    [self.m_txtLoginCode resignFirstResponder];
+    
     NSString *ErrMsg = nil;
     do
     {
@@ -164,6 +167,9 @@
 }
 - (IBAction)cancelLogin:(id)sender
 {
+    // Hide numeric keyboard if any
+    [self.m_txtLoginCode resignFirstResponder];
+    
     // send event to delegate
     if (self.delegate)
     {
@@ -183,7 +189,14 @@
 - (BOOL)textFieldShouldBeginEditing:(UITextField *)textField {
     
     // Irina
-    [self selectServerName: -1];
+    
+    // Hide numeric keyboard if any
+    [self.m_txtLoginCode resignFirstResponder];
+    
+    // Select KLIK device
+    [self selectServerName: -1]; //aa
+    
+    
     return NO;
 }
 

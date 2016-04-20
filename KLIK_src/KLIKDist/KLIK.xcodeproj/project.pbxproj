@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		78BEEA7E1CC6C3120060B92C /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 78BEEA7D1CC6C3120060B92C /* README.md */; };
 		940E202C19FF265D00A58297 /* ALAsset+Reorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 940E202B19FF265D00A58297 /* ALAsset+Reorder.m */; };
 		940E20401A007FA100A58297 /* SortByA_25.png in Resources */ = {isa = PBXBuildFile; fileRef = 940E20381A007FA100A58297 /* SortByA_25.png */; };
 		940E20411A007FA100A58297 /* SortByA_50.png in Resources */ = {isa = PBXBuildFile; fileRef = 940E20391A007FA100A58297 /* SortByA_50.png */; };
@@ -215,6 +216,7 @@
 		631866D011EE4D5B00AB038D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		636E9D8311ED3E29002FE8A9 /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
 		6376443E1205C33C00E48F8B /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		78BEEA7D1CC6C3120060B92C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		7A5ECA1811DE782F00F66AF3 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		7A5ECA1C11DE783500F66AF3 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		7A5ECA2011DE783F00F66AF3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
@@ -478,6 +480,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				78BEEA7D1CC6C3120060B92C /* README.md */,
 				942AF8E41541195C00E10E8D /* Config */,
 				080E96DDFE201D6D7F000001 /* GUI */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
@@ -1030,6 +1033,7 @@
 				94FE2055199C740700D17BC8 /* FIleListViewController.m in Sources */,
 				940E20501A00C5F300A58297 /* UIImage+RoundedCorner.m in Sources */,
 				94DB994C19DE54D2009404ED /* JSTools.js in Sources */,
+				78BEEA7E1CC6C3120060B92C /* README.md in Sources */,
 				94150EFB1A4943D200949F70 /* FSServer.m in Sources */,
 				94FE2079199CA00B00D17BC8 /* AssetBrowserItem.m in Sources */,
 				E17F34551606FC1D00DAE5DF /* DiscoveryListViewController.m in Sources */,
